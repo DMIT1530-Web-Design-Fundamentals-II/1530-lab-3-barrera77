@@ -306,14 +306,4 @@ section {
     height: 100vh;
     transform: scale(1.8);
   }
-
-  #content {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    padding: 3.5rem 2rem;
-    box-sizing: border-box;
-  }
 }
