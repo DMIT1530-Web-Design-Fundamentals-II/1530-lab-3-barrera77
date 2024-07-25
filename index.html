@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lab 03</title>
 
     <!-- Meta Tags -->
-    <meta name="author" content="...">
-    <meta name="description" content="...">
+    <meta name="author" content="..." />
+    <meta name="description" content="..." />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-</head>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </head>
 
-<body>
-    
-</body>
-
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="container-header">
+          <div id="mobile-menu">
+            <h1><span>e</span>Sports</h1>
+            <div class="menu-icon">
+              <img src="img/joystick-logo.svg" alt="controller icon" />
+              <a href="#">menu</a>
+            </div>
+          </div>
+          <nav>
+            <div class="esports-menu">
+              <ul class="esports-menu-nav">
+                <li class="item dropdownitem" id="item-games">
+                  <a href="#" class="nav-dropdown"
+                    >GAMES<img src="img/down-chevron.svg" alt="down chevron"
+                  /></a>
+                  <div class="dropdown">
+                    <ul>
+                      <li class="item"><a href="#">CS:GO</a></li>
+                      <li class="item"><a href="#">DOTA 2</a></li>
+                      <li class="item"><a href="#">Fortnite</a></li>
+                      <li class="item"><a href="#">League of Legends</a></li>
+                      <li class="item"><a href="#">Overwatch</a></li>
+                      <li class="item"><a href="#">Pokémon</a></li>
+                      <li class="item"><a href="#">PUGB</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="item dropdownitem" id="item-schedule">
+                  <a href="#" class="nav-dropdown"
+                    >SCHEDULE<img src="img/down-chevron.svg" alt="down chevron"
+                  /></a>
+                  <div class="dropdown">
+                    <ul>
+                      <li class="item"><a href="#">Australia & EU</a></li>
+                      <li class="item"><a href="#">East Asia</a></li>
+                      <li class="item"><a href="#">North America</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="item dropdownitem" id="item-register">
+                  <a href="#" class="nav-dropdown"
+                    >REGISTER<img src="img/down-chevron.svg" alt="down chevron"
+                  /></a>
+                  <div class="dropdown">
+                    <ul>
+                      <li class="item">
+                        <a href="#">Individual Competitors</a>
+                      </li>
+                      <li class="item"><a href="#">Team Events</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section>
+          <div class="banner">
+            <img src="img/crowd-background.webp" alt="crowd" />
+          </div>
+          <div id="content">
+            <h2><span>e</span>Sports League</h2>
+            <p>
+              Get your head in the game! Register<br />as an individual
+              competitor or for a<br />team event in an upcoming<br />tournament
+              near you
+            </p>
+            <div>
+              <button>Register Now</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
